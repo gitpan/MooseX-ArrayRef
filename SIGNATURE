@@ -14,10 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 db369171ce712e912d9f645ef2504a7e5f55e79b Changes
+SHA1 c68af7107dc344e285a81cef5dc3a45ef8da595b Changes
 SHA1 cc087c3dd6e1b519c680e68cd0231735a68300a0 LICENSE
 SHA1 a9e972fe4127b54f09d6c2c97738e5d74d30e1ec MANIFEST
-SHA1 2752f050ca66c58022707b4db60c2887e528339f META.yml
+SHA1 3e6b62427d743d147e6d1f20ddc9b09cde76cf24 META.yml
 SHA1 da50d35f9bc21473691888031579fd3ad684e205 Makefile.PL
 SHA1 d8c6e502e21b22581bf02e1993ac559eb42c59e7 README
 SHA1 03eea48c228ac9aaf7dae63150455930d550dfab examples/benchmark.pl
@@ -42,19 +42,19 @@ SHA1 0e0eed2e69d9583081868cf4f220068d0a018568 inc/Scalar/Util.pm
 SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
 SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
 SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
-SHA1 96e950f143ee7e38668d4948ec321274f61db4a5 lib/MooseX/ArrayRef.pm
-SHA1 5e5567cdc2c54d1cb22ef6dfea7f6f7a286170be lib/MooseX/ArrayRef/Meta/Class.pm
-SHA1 dd59ea6a59d4fd1ee519477e4742f6b94ff84864 lib/MooseX/ArrayRef/Meta/Instance.pm
-SHA1 9c3b1aee0b6a58d61cb126f3b6093d027d93eea9 meta/changes.pret
+SHA1 2f343cbb1a104784f6e4fd7e3a4f676bb6056283 lib/MooseX/ArrayRef.pm
+SHA1 839a8c45bb8bd1ad6c633f8cc94c799d8a7a1bdb lib/MooseX/ArrayRef/Meta/Class.pm
+SHA1 fbde87e3abb151a1ceeaba4e1b08558071a68576 lib/MooseX/ArrayRef/Meta/Instance.pm
+SHA1 828b6a72c4af51fbab12a7649b0d43402194b9fb meta/changes.pret
 SHA1 0da3c1bf2e50814d2aac7a2c2662d258c37951a6 meta/doap.pret
-SHA1 c8fbe531e15279c2ef2ff8d1c69214ef6ef429c8 meta/makefile.pret
+SHA1 b1a904baad25e5b3870641c76bb87c942b8aeebc meta/makefile.pret
 SHA1 e3d0c03dea534213850c3916e0d929d25d971b53 t/01basic.t
 SHA1 cd87212bc82025f03a5cd3fa1515913e04dbfa62 t/02indexmap.t
 SHA1 b7a8d058715c8ddd727d7e35ce5ee8c8aa8063e7 t/03objects.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAlBF+ZwACgkQzr+BKGoqfTkrcwCfQMzK+bfoO1zcCFQM2kxeiWnW
-yHoAoKql89MEI/SIND85IG8C1ikgDagp
-=T5Hd
+iEYEARECAAYFAlBF+x8ACgkQzr+BKGoqfTk5VwCeNn30XzeDn3B+85e0ii6jTN/u
+wscAnjOZKs2zuxofdJDL48sAQq2Py7GD
+=NkEj
 -----END PGP SIGNATURE-----
