@@ -35,4 +35,5 @@ README
 t/01basic.t
 t/02indexmap.t
 t/03objects.t
+t/04inlining.t
 SIGNATURE                                Public-key signature (added by MakeMaker)
