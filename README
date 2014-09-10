@@ -41,7 +41,7 @@ DESCRIPTION
     than those implemented with hashrefs. Moose's default object
     implementation is hashref based. Can we go faster?
 
-    Simply "use MooseX::ArrayRef" instead of "use Moose", but note the
+    Simply `use MooseX::ArrayRef` instead of `use Moose`, but note the
     limitations in the section below.
 
     The current implementation is mostly a proof of concept, but it does
@@ -50,8 +50,8 @@ DESCRIPTION
 BUGS AND LIMITATIONS
   Limitations on Speed
     The accessors for mutable classes not significantly faster than Moose's
-    traditional hashref-based objects. For immutable classes, the speed up
-    is bigger
+    traditional hashref-based objects. For immutable classes, the speed up is
+    bigger
 
                    Rate  HashRef_M ArrayRef_M  HashRef_I ArrayRef_I
       HashRef_M  1016/s         --        -1%       -48%       -55%
@@ -79,7 +79,7 @@ BUGS AND LIMITATIONS
         course, all Moose classes inherit from Moose::Object too, which is
         just fine.)
 
-    Note that delegation (via Moose's "handles") is often a good alternative
+    Note that delegation (via Moose's `handles`) is often a good alternative
     to inheritance.
 
   Issue Tracker
@@ -95,8 +95,8 @@ AUTHOR
 COPYRIGHT AND LICENCE
     This software is copyright (c) 2012 by Toby Inkster.
 
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
+    This is free software; you can redistribute it and/or modify it under the
+    same terms as the Perl 5 programming language system itself.
 
 DISCLAIMER OF WARRANTIES
     THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED

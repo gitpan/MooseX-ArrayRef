@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,48 +14,32 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 b13c12de663ddb84968ffde47fa059a1a2055772 Changes
-SHA1 cc087c3dd6e1b519c680e68cd0231735a68300a0 LICENSE
-SHA1 111a2629ed9ebfd33c72ef1cf2c93bb9eeeca44b MANIFEST
-SHA1 280edf10d4d863c5ea59fb5e4c39e9fc5f4322b4 META.yml
-SHA1 da50d35f9bc21473691888031579fd3ad684e205 Makefile.PL
-SHA1 d8c6e502e21b22581bf02e1993ac559eb42c59e7 README
+SHA1 33317486c4fa2cf7fec85bf92ed38ac0f64233a0 CONTRIBUTING
+SHA1 368aad530df83a803d7a6d3ca5f587452986fc36 COPYRIGHT
+SHA1 6bd7b17d81be63d08d4efa6cb80106e72887842c CREDITS
+SHA1 5a38f25adb85e9f6f52161e416af789e636f64d6 Changes
+SHA1 e633bf4775c76ef32b4ff3e8d918d6e4506c38b7 INSTALL
+SHA1 34f5e12514b91055de4b164a1f2327ef5c30ba53 LICENSE
+SHA1 92faca12d0421e68ddee5ce9b2c500b99b03be4d MANIFEST
+SHA1 02921ef697a9c91451df5cce27e2ca78377d8e4b META.json
+SHA1 1c1eb01ab19eebf4f12022ab71e68f3737a2cfc2 META.yml
+SHA1 dab2b7756148f892d3abe049990cd240c1d53cf6 Makefile.PL
+SHA1 161209d2030c6b830c5b6f3b5e45643778518b97 README
+SHA1 3cbd5f2d73506806c362029fb466e5ab23c2b4d0 dist.ini
+SHA1 ccec97ebd8794160cb3a345b4671273b12c456f9 doap.ttl
 SHA1 03eea48c228ac9aaf7dae63150455930d550dfab examples/benchmark.pl
 SHA1 7a662fcefe2722022c4ba150d89a4f37826c9a73 examples/synopsis.pl
-SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
-SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
-SHA1 61ab1dd37e33ddbe155907ce51df8a3e56ac8bbf inc/Module/Install/AutoInstall.pm
-SHA1 c04f94f91fa97b9f8cfb5a36071098ab0e6c78e3 inc/Module/Install/AutoManifest.pm
-SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
-SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
-SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
-SHA1 66d3d335a03492583a3be121a7d888f63f08412c inc/Module/Install/Include.pm
-SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
-SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
-SHA1 3b9281ddf7dd6d6f5de0a9642c69333023193c80 inc/Module/Install/Package.pm
-SHA1 9de7b5129351499c048328dfa718d0eab557cf30 inc/Module/Install/TrustMetaYml.pm
-SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
-SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
-SHA1 c18deb3025b83dda8ac7c97f1e29599e1d2c7378 inc/Module/Package/Dist/RDF.pm
-SHA1 0e0eed2e69d9583081868cf4f220068d0a018568 inc/Scalar/Util.pm
-SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
-SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
-SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
-SHA1 ef77e51f6b8740f49ccf1d535e5b8e7cfd6a264a lib/MooseX/ArrayRef.pm
-SHA1 e310d041261dd11f77d9d39f957c212641b7b174 lib/MooseX/ArrayRef/Meta/Class.pm
-SHA1 c93ed467ce106007d39adbba0b8a7a8c34217065 lib/MooseX/ArrayRef/Meta/Instance.pm
-SHA1 a00c0b988965d890525ee017bb7e98d6d00e0609 meta/changes.pret
-SHA1 0da3c1bf2e50814d2aac7a2c2662d258c37951a6 meta/doap.pret
-SHA1 30d3a4f9a1a9d298cb462345e7c76044b49bf623 meta/makefile.pret
+SHA1 6315fb91c92e96f743cb85c22303b768b6eb16c4 lib/MooseX/ArrayRef.pm
+SHA1 b090f7ccc734fe4472d0716caa270eb16b9223b5 lib/MooseX/ArrayRef/Meta/Class.pm
+SHA1 8bf4cf64399fdc6c361e56daac155c854546f281 lib/MooseX/ArrayRef/Meta/Instance.pm
 SHA1 e3d0c03dea534213850c3916e0d929d25d971b53 t/01basic.t
 SHA1 cd87212bc82025f03a5cd3fa1515913e04dbfa62 t/02indexmap.t
 SHA1 b7a8d058715c8ddd727d7e35ce5ee8c8aa8063e7 t/03objects.t
 SHA1 8878286f597091d56d06c66b9192fe9c351cc62b t/04inlining.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1
 
-iEYEARECAAYFAlBGeOcACgkQzr+BKGoqfTkKlwCeOXp76Jhy0fjmJt6nKVB1F/+q
-7PoAoIao6DZeyEAWmR9nLEOQT2UiN7uw
-=qhwC
+iEYEARECAAYFAlQQyvUACgkQzr+BKGoqfTnZuQCeLqU1k0pXolU7ggBPpXRg5d0R
+iK0AoIkO0E+r+w+jeF5BWtxzMJLjnzyY
+=azPA
 -----END PGP SIGNATURE-----
